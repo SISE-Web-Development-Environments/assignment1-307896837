@@ -3,5 +3,50 @@
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: white;
+	text-align: center;
+	background: turquoise;
+}
+
+.inline-block {
+   display: inline-block;
+    width:  700px;
+    height: 700px;
+	padding 10px;
+    background-size: cover;
+}
+
+#about
+{
+	text-align: center;
+	text-bold;
+}
+
+#photos
+{
+	text-align: center;
+}
+
+#playlist
+{
+	text-align: center;
+}
+
+#like
+{
+	text-align: center;
+}
+
+#qrcoder
+{
+	text-align: center;
+}
+
+#spa
+{
+	text-align: center;
+}
+
+#contact
+{
+	text-align: center;
 }

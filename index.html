@@ -2,16 +2,22 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta property="og:url"           content="https://www.facebook.com/OhadNave" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Your Website Title" />
+  <meta property="og:description"   content="Your description" />
+  <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
 </head>
 <body>
 <div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+<a href="#about">About Me</a>
+<a href="#photos">My Photos</a>
+<a href="#playlist">My Playlist</a>
+<a href="#like">Like</a>
+<a href="#qrcoder">QR code</a>
+<a href="#spa">Q&A</a>
+<a href="#contact">Contact Me</a>
+
 </div>
 		  
 <section id="about" class="section">
@@ -23,156 +29,86 @@
 <br/>
 <br/>
 <br/>
+<b> <font size="10" >about me </font> </b>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
+<b> my name is ohad </b>
 <br/>
 </section>
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <section id="photos" class="section">
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
+<b> <font size="10" >my photos </font> </b>
+<div class="photoline">
+  <div class="inline-block">
+    <img src="1.jpg" cl alt="Snow" style="width:100%">
+  </div>
+  <div class="inline-block">
+    <img src="3.jpg" alt="Mountains" style="width:100%">
+  </div>
+    <div class="inline-block">
+    <img src="4.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
 </section>
 
 <section id="playlist" class="section">
+<b> <font size="10" >my playlist</font> </b>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
+<center> <iframe width="560" height="315" src="https://www.youtube.com/embed/5kzShqx8NV8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 </section>
 
 <section id="like" class="section">
+<b> <font size="10" >give me a like</font> </b>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
+
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&share=true&height=35&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
 </section>
 
+<br/>
+
 <section id="qrcoder" class="section">
+<b> <font size="10" >scan my code</font> </b>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
+<img src="qr.png" height='300' width = '300'>
 </section>
 
 <section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
+<b> <font size="10" >ans</font> </b>
 </section>
 
 <section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
+<b> <font size="10" >contact me</font> </b>
+</br>
+<FORM METHOD = "POST" ACTION = "MAILTO:ohadnav@post.bgu.ac.il" method="post">
+
+<INPUT TYPE = "hidden" NAME = "recipient"
+   VALUE = "deitel@deitel.com">
+<INPUT TYPE = "hidden" NAME = "subject" 
+   VALUE = "Feedback Form">
+<INPUT TYPE = "hidden" NAME = "redirect" 
+   VALUE = "main.html"> 
+
+<P><STRONG> enter your email address: </STRONG>
+<INPUT NAME = "name" TYPE = "text" SIZE = "25"></P>
+
+<P><STRONG> content:</STRONG> 
+<TEXTAREA NAME = "comments" ROWS = "4" COLS = "36"></TEXTAREA>
+</P>
+
+<INPUT TYPE = "submit" VALUE = "SEND"> 
+
 </section>
 
 
