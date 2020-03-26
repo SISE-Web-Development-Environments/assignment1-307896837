@@ -6,7 +6,36 @@
 	text-align: right;
 }
 
+body{
+		background-color: Moccasin;
+		text-align: center;
+}
 
+div{
+	 background-color: orange;
+}
+
+hr{
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+
+ h1{
+	  font-family: 'Ellinia CLM';
+	  font-size : 35px ;
+ }
+
+ a{
+	  font-family: 'Calibri Light';
+	  font-size : 40px ;
+	  color:black;
+ }
+ 
+ b{
+	  font-family: 'Ellinia CLM';
+	  font-size : 25px ;
+ }
+ 
 #about
 {
 	text-align: center;
