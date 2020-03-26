@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+  <meta property="og:url"           content="https://www.facebook.com/OhadNave" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Your Website Title" />
+  <meta property="og:description"   content="Your description" />
+  <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+  <link href='http://serve.fontsproject.com/css?family=Ellinia+CLM:200'
+  rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div style=text-align:center; id="menu">
+<a href="#about"; style=text-decoration:none; >About Me</a> &emsp;
+<a href="#photos"; style=text-decoration:none; >My Photos</a>&emsp;
+<a href="#playlist"; style=text-decoration:none;>My Playlist</a>&emsp;
+<a href="#like"; style=text-decoration:none;>Like</a>&emsp;
+<a href="#qrcoder"; style=text-decoration:none;>QR code</a>&emsp;
+<a href="#spa"; style=text-decoration:none;>Q&A</a>&emsp;
+<a href="#contact"; style=text-decoration:none;>Contact Me</a>&emsp;
+</div>
+<br>
+<br>
+<br>
+<hr>	
+<section id="about" class="section">
+<h1> קצת עליי </h1>
+<b size="6" > ברוכים הבאים לדף הבית של אורחן משיח, כאן תמצאו אוכל חם, אוכל טרי ודגי מרלוזה בשמן עמוק </b>
+<br>
+<b size="6">  משיח היא סדרת רשת ישראלית בכיכובי שנוצרה על ידי אודי כגן ודנה פוליג  , המספרת את סיפורו של משיח, זמר כושל והבעלים של אורחן דרכים. במהלך הסדרה, מנסה משיח להגיע ל"טופ" של תעשיית המוזיקה המקומית</b>
+</section>
+
+<hr>
+<section id="photos" class="section">
+<h1> ככה זה נראה כשאתה נמצא בטופ </h1>
+<img src="152.jpg" width="600" height="450">
+<img src="20.jpg" width="900" height="450">
+<img src="12.jpg" width="600" height="450">
+<br/>
+</section>
+
+
+<hr>
+<section id="playlist" class="section">
+<h1> קצת מנעמים לאוזניים </h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gi0DlP6HCj4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+<hr>
+<section id="like" class="section">
+<h1> פרגנו באגודל </h1>
+<br>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fsise-web-development-environments.github.io%2Fassignment1-307896837%2F&width=450&layout=standard&action=like&size=small&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+</section>
+
+
+<hr>
+<section id="qrcoder" class="section">
+<h1>  סרקו את הקוד </h1>
+<img src="qr.png" height='300' width = '300'>
+</section>
+
+
+<hr>
+<section id="spa" class="section">
+<h1> שאלות ותשובות </h1>
+  <img src="Q1.png" width="600" height="100">
+  <br/>
+    <img src="Q2.png" width="700" height="600">
+<br/>
+</section>
+
+<hr>
+<section id="contact" class="section">
+<b> <font size="10">צרו עימנו קשר  </font> </b>
+<form action="mailto:ohadnav@post.bgu.ac.il" method="post" enctype="text/plain">
+<p><strong> Enter your mail: </strong>
+<br>
+	<input name="name" type="text" size="25"></p>
+<p><strong> Message Content:</strong> 
+<br>
+	<textarea style="height: 100px;" placeholder="type here..." name="comment" size="25"></textarea>
+<br>
+
+<select id="emoji" name="emoji">
+		<option>😡</option>
+		<option>😥</option>
+		<option>😅</option>
+		<option>😉</option>
+        <option>😎</option>
+		<option>😂</option>
+        <option>😐</option>
+        <option>😓</option>
+        <option>😘</option>
+        <option>😨</option>
+
+    </select>
+
+<input type="submit" value="Send"> 
+</p></form>
+</section>
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
